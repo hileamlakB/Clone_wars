@@ -1,0 +1,29 @@
+.nav {
+	position: fixed;
+	display: flex;
+	top: 0;
+	width: 100%;
+	justify-content: space-between;
+	padding: 0 10px 0 10px;
+	box-sizing: border-box;
+	transition: all 0.5s ease-in;
+}
+
+.nav_logo {
+	width: 60px;
+	object-fit: contain;
+}
+
+.nav_avatar {
+	width: 25px;
+	object-fit: contain;
+}
+
+.show_nav_bg {
+	background-color: #111111ba;
+}
+
+svg {
+	height: 30px;
+	width: 60px;
+}
